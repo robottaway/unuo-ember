@@ -1,0 +1,9 @@
+<p>{{#link-to 'profiles.new'}}create a profile{{/link-to}}</p>
+<div>
+<div>Glorious Build Profiles:</div>
+{{#each profile in model.profiles}}
+<ul>
+<li>{{#link-to 'profile' profile}}{{profile}}{{/link-to}}</li>
+</ul>
+{{/each}}
+</div>

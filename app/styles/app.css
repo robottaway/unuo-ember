@@ -1,3 +1,36 @@
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Raleway'), url(/Raleway-Regular.ttf) format('truetype');
+}
+
 html, body {
-  margin: 20px;
+    margin: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#brand {
+    padding-bottom: 6px;
+}
+
+#brand > h2 {
+    display: inline;
+    vertical-align: middle;
+}
+
+#brand > img {
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: blue;
+}
+
+ul {
+    list-style-type: none;
 }

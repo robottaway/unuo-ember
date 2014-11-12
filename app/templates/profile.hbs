@@ -1,0 +1,9 @@
+<h3>{{model.name}}</h3>
+<p>
+    <span>{{#link-to 'profile' model}}view{{/link-to}}</span> 
+    <span>edit</span>
+    <span>{{#link-to 'build'}}builds{{/link-to}}</span>
+    <span>remove</span>
+</p>
+
+{{outlet}}

@@ -1,0 +1,8 @@
+<div>
+    <table>
+        <tr><td>dockertag:</td><td>{{model.dockertag}}</td></tr>
+        <tr><td>push:</td><td>{{model.push}}</td></tr>
+        <tr><td>repo:</td><td>{{model.repo}}</td></tr>
+    </table>
+    <p>{{#link-to 'build' 'my-kraken-cart-build'}}build this now{{/link-to}} {{#link-to 'delete'}}remove this profile{{/link-to}}</p>
+</div>
