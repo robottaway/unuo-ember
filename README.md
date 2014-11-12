@@ -1,8 +1,13 @@
-# Unuo-ember
+## UNUO Ember UI
 
 This README outlines the details of collaborating on this Ember application.
 
-A short introduction of this app could easily go here.
+The UNUO Ember UI allows for interacting with UNUO through a clean web ui.
+
+You can define new profiles, edit existing profiles and run profiles.
+
+It can also be used to monitor activity, review builds which ran previously,
+and cleanup exisiting builds.
 
 ## Prerequisites
 
@@ -10,18 +15,24 @@ You will need the following things properly installed on your computer.
 
 * [Git](http://git-scm.com/)
 * [Node.js](http://nodejs.org/) (with NPM) and [Bower](http://bower.io/)
+* [UNUO](https://github.com/robottaway/unuo)
 
 ## Installation
 
 * `git clone <repository-url>` this repository
-* change into the new directory
+* change into the cloned directory
 * `npm install`
 * `bower install`
 
 ## Running / Development
 
-* `ember server`
+* `ember server --proxy http://127.0.0.1:5000`, assuming you run UNUO on the standard 5000 port
 * Visit your app at http://localhost:4200.
+
+
+## Development
+
+The following is useful information for doing development work with this project.
 
 ### Code Generators
 
@@ -39,10 +50,11 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 ### Deploying
 
-Specify what it takes to deploy your app.
+TODO
 
 ## Further Reading / Useful Links
 
+* [UNUO project](https://github.com/robottaway/unuo)
 * ember: http://emberjs.com/
 * ember-cli: http://www.ember-cli.com/
 * Development Browser Extensions
