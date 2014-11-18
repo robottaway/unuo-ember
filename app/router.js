@@ -11,7 +11,7 @@ Router.map(function() {
     });
     this.resource("profile", { path: "/profile/:profile_name" }, function() {
         this.resource("build", function() {
-            this.route("run", { path: "/:run_uuid" });
+            this.route("run", { path: "/run" });
         });
     });
 });

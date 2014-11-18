@@ -1,1 +1,7 @@
-<p>build it!</p>
+<button {{action 'start'}} {{bindAttr disabled="running"}}>start</button>
+
+{{#if count}}
+<p>{{count}}</p>
+{{/if}}
+
+<pre>{{#each line in lines}}{{line}}{{/each}}</pre>
